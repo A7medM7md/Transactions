@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using Transactions.PL.Models;
+using Transactions.PL.ViewModels;
 
 namespace Transactions.PL.Controllers
 {

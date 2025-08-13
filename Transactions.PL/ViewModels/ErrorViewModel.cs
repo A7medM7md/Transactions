@@ -1,4 +1,4 @@
-namespace Transactions.PL.Models
+namespace Transactions.PL.ViewModels
 {
 	public class ErrorViewModel
 	{
