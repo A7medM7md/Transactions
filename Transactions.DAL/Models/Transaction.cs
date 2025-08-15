@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Transactions.DAL.Models
 {
-	internal class Transaction
+	public class Transaction : BaseEntity
 	{
-	}
+        public decimal Amount { get; set; }
+        public string? Note { get; set; }
+        public DateTime Date { get; set; } = DateTime.Now;
+
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
+    }
 }
